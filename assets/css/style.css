@@ -1,0 +1,284 @@
+/* ---------- General Styling ---------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h4 {
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p,
+li,
+a {
+  font-family: "Special Elite", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* ---------- Nav Bar ---------- */
+
+nav li {
+  display: inline;
+  position: relative;
+  left: 65rem;
+  top: 2rem;
+  padding-right: 20px;
+}
+
+nav li a:hover {
+  color: pink;
+}
+
+#hero img:first-child {
+  width: 100vw;
+  height: 500px;
+  position: relative;
+  top: 3.5rem;
+  object-fit: cover;
+}
+
+#hero img:last-child {
+  position: relative;
+  bottom: 16rem;
+  left: 0.1rem;
+  width: 60vw;
+}
+
+/* ---------- First Section ---------- */
+
+#coffee-beans {
+  width: 100vw;
+  height: 700px;
+  object-fit: cover;
+  margin-top: -790px;
+}
+
+#intro {
+  position: relative;
+  z-index: 3;
+  left: 10rem;
+  width: 30%;
+  bottom: 180px;
+}
+
+#intro p {
+  padding-top: 10px;
+  line-height: 1.2em;
+}
+
+.middle-images img {
+  position: relative;
+  width: 100vw;
+  height: 350px;
+  object-fit: cover;
+  bottom: 290px;
+}
+
+/* ---------- Menu Section ---------- */
+
+#cookies {
+  position: relative;
+  width: 60vw;
+  left: 3em;
+  object-fit: cover;
+  margin-top: -250px;
+  bottom: 3rem;
+}
+
+#menu {
+  position: relative;
+  bottom: 40rem;
+  text-align: center;
+  margin-top: -250px;
+}
+
+#menu img {
+  width: 50px;
+  height: 40px;
+  padding-top: 12px;
+}
+
+#menu h2 {
+  padding-top: 7px;
+  padding-bottom: 20px;
+}
+
+#menu p {
+  padding-bottom: 10px;
+}
+
+.brews {
+  border: 1px solid #000;
+  margin: 0 auto;
+  width: 25%;
+  margin-bottom: 25px;
+  margin-bottom: 10px;
+  padding: 7px;
+  line-height: 1.5em;
+}
+
+#egg-benedict img {
+  position: relative;
+  width: 100vw;
+  height: 420px;
+  object-fit: cover;
+  bottom: 33rem;
+}
+
+/* ---------- Story Section ---------- */
+
+#story {
+  position: relative;
+  width: 23%;
+  left: 20rem;
+  bottom: 28rem;
+  margin-bottom: -100px;
+}
+
+#story img {
+  position: absolute;
+  left: 25rem;
+  width: 270px;
+  height: 200px;
+  bottom: 1rem;
+}
+
+#story p {
+  line-height: 1.5em;
+  padding-top: 10px;
+}
+
+/* ---------- Catering Section ---------- */
+
+#pie img {
+  position: relative;
+  left: 57rem;
+  height: 500px;
+  object-fit: cover;
+  bottom: 17rem;
+}
+
+#cater,
+#cake {
+  margin-top: -500px;
+}
+
+#cater img {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  bottom: 7rem;
+  left: 23rem;
+}
+
+#cater h2,
+#cater p,
+#cater a {
+  position: relative;
+  left: 48rem;
+  width: 25%;
+  bottom: 27rem;
+  line-height: 1.5em;
+  padding-bottom: 10px;
+}
+
+.button {
+  border: 1px solid #000;
+  padding-top: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.button:hover {
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+#smoothie img {
+  bottom: 300px;
+  position: relative;
+  width: 100vw;
+  height: 350px;
+  object-fit: cover;
+}
+
+#muffin img {
+  position: relative;
+  height: 400px;
+  bottom: 17rem;
+  left: 8rem;
+  z-index: 4;
+}
+
+#cake h2,
+#cake p,
+#cake a {
+  position: relative;
+  left: 48rem;
+  width: 25%;
+  line-height: 1.5em;
+  padding-bottom: 10px;
+  bottom: 18rem;
+}
+
+#cake img {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: 23rem;
+  bottom: 4rem;
+}
+
+#cake {
+  margin-bottom: -150px;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#social-media img {
+  width: 30px;
+  height: 35px;
+}
+
+footer img {
+  width: 55px;
+  height: 30px;
+}
+
+footer h1 {
+  text-transform: none;
+}
+
+footer p {
+  line-height: 1.5em;
+}
